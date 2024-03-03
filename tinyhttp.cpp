@@ -46,6 +46,7 @@ public:
         }
 
         std::cout << "TinyHttp is running on port " << port_ << std::endl;
+        std::cout << "URL: http://localhost:" << port_ << std::endl;
 
         while (true) {
             int client_socket = accept(server_fd, nullptr, nullptr);
