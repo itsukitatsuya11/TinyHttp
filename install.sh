@@ -25,6 +25,9 @@ else
 fi
 
 # Installation Process
+echo "======================================"
+echo "        Cloning Progress              "
+echo "======================================"
 git clone https://github.com/$REPO_OWNER/$REPO_NAME.git
 cd $REPO_NAME
 cp tinyhttp $INSTALL_DIR
@@ -32,7 +35,9 @@ cp tinyhttp $INSTALL_DIR
 # Remove installation script and project directory
 cd ..
 rm -rf $REPO_NAME
-
+echo "======================================"
+echo "          Done Progress               "
+echo "======================================"
 # Inform user that installation is complete
 echo "Installation complete. You can run the program using the 'tinyhttp' command."
 
