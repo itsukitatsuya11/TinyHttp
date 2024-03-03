@@ -6,7 +6,6 @@ REPO_NAME="TinyHttp"
 INSTALL_DIR=""
 USER_BIN_DIR="$HOME/.local/bin"
 SYS_BIN_DIR="/usr/local/bin"
-SCRIPT_NAME="install.sh"
 PROGRAM_NAME="TinyHttp"
 VERSION="v1.0"
 
@@ -38,7 +37,7 @@ cp tinyhttp $INSTALL_DIR
 
 # Remove installation script and project directory
 cd ..
-rm $SCRIPT_NAME
+# rm $SCRIPT_NAME
 rm -rf $REPO_NAME
 
 # Inform user that installation is complete
