@@ -29,15 +29,8 @@ git clone https://github.com/$REPO_OWNER/$REPO_NAME.git
 cd $REPO_NAME
 cp tinyhttp $INSTALL_DIR
 
-# Download installation script from GitHub
-# curl -sSLO https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME/main/$SCRIPT_NAME
-
-# Run installation script
-# bash $SCRIPT_NAME
-
 # Remove installation script and project directory
 cd ..
-# rm $SCRIPT_NAME
 rm -rf $REPO_NAME
 
 # Inform user that installation is complete
